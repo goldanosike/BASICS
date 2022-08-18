@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML Form</title>
+</head>
+<body>
+   <header class="headersection">
+      <h3>FILL THIS FORM IN ORDER TO REGISTER FOR THIS COHORT</h3>
+   </header>
+   <main>
+      <form>
+         <div>
+        <b> <label for="full name">Full Name:</label></b>
+         <input type="text"place holder="Anosike Gold" id="full name">
+         </div>
+         <br>
+
+         <div>
+           <b> <label for="email"> Email address:</label></b>
+            <input type="email" placeholder="example@gmail.com" id="email">
+         </div>
+         <br>
+
+         <div>
+            <b> <label for="phone">Whatsapp Number:</label></b>
+               <input type="tel" id="phone">
+         </div>
+         <br>
+
+         <div>
+           <b> <label for="date"> Date Of Birth:</label></b>
+            ,<input type="date" id="date">
+         </div> 
+         <br>
+
+         <div>
+            <b> <label> Track:</label></b> <br/>
+            <input type="radio" id="web Development">
+            <label for="web Development">Web Development</label>
+
+            <input type="radio" id="Artificial Intelligence">
+            <label for="Artificial Intelligence">Artificial Intelligence</label>
+
+            <input type="radio" id="Data Science">
+            <label for="Data Science">Data Science</label>
+
+            <input type="radio" id="UI/UX">
+            <label for="UI/UX">UI/UX</label>
+         </div>
+         <br>
+
+         <div>
+           <b> <label> State Of Origin:</label></b>
+            <select>
+               <option>Abia</option>
+               <option>Lagos</option>
+               <option>Imo</option>
+            </select>
+
+         </div>
+         <br>
+
+         <div>
+            <P> In nohing less than 200 words state why you should be given this scholarship.</P>
+           <textarea rows="15" cols="30">lorem ipsum</textarea> 
+         </div>
+
+   
+         <input type="submit" value="SUBMIT">
+      </form>
+
+   </main>
+      
+   </main>
+</body>
+<footer>
+
+</footer>
+</html>

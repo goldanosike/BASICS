@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML TABLE</title>
+</head>
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>NAME</th>
+                    <th>EMAIL ADDRESS</th>
+                    <th>AGE</th>
+                    <th>TRACK</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Amarachi Jacinta</td>
+                    <td>amarachi@gmail.com</td>
+                    <td>5 years</td>
+                    <td>web development</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shalom Omor</td>
+                    <td>shalom@gamil.com</td>
+                    <td>4 years</td>
+                    <td>Product Management</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Alexandra Okonkwo</td>
+                    <td>alexandra@gmail.com</td>
+                    <td>7 years</td>
+                    <td>Front end developer</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Emmanuella Bruce</td>
+                    <td>emmanuella@gmail.com</td>
+                    <td>10 years</td>
+                    <td> Data analyst</td>
+                </tr>
+                    
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </main>
+
+    
+</body>
+</html>

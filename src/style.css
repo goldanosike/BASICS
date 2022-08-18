@@ -1,0 +1,19 @@
+
+body{
+background-color: #333;
+color: #fff;
+text-align: center;
+}
+body h1{
+    background-color: brown;
+    border: 16px, grey, solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+body p{
+    border: 10px, brown, solid;
+}
